@@ -2,7 +2,7 @@
   description = "A customizable and extensible shell";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs-23.11";
   };
 
   outputs = { nixpkgs, self }: let
